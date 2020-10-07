@@ -27,6 +27,15 @@ exports.TestObject = {
     }
 };
 
+exports.SyncTestObject = {
+    name: 'TestObject',
+    primaryKey: '_id',
+    properties: {
+        _id: 'string',
+        doubleCol: 'double',
+    }
+};
+
 exports.Decimal128Object = {
     name: 'Decimal128Object',
     properties: {
